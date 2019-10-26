@@ -4,3 +4,5 @@ go:
 # TODO(#1): enable linter in CI
 script:
   - go build -v .
+after_succes:
+  - ./living-graph
