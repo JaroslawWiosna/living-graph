@@ -1,0 +1,6 @@
+language: go
+go:
+  - 1.11.x
+# TODO: enable linter in CI
+script:
+  - go build -v .
